@@ -1,0 +1,15 @@
+
+<!-- saved from url=(0032)http://itshighnoonsomewhere.com/ -->
+<html ng-app="highnoon"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ITS HIGH NOON</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="./js/angular.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+        <script type="text/javascript" src="./js/Tardis.js"></script>
+    </head>
+    <body ng-controller="IndexController as indexCtrl">
+      <img src="./images/mcree_at_clock.jpg"><br />
+      <span class="preamble" id="somewhere">ITS HIGH NOON IN </span><span class="where" id="where" ng-bind="indexCtrl.whereIsHighNoon"></span><br />
+      <audio id="highnoonSound"><source src="./audio/its_high_noon.mp3" type="audio/mpeg"></audio>
+    </body>
+</html>

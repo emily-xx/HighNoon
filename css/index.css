@@ -1,0 +1,6 @@
+html, body {height:100%;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}
+span#latlon {font-size:smaller}
+span.preamble, span.where {font-family: Impact; font-size: 60; font-weight: 500; color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
+span.where {color: red}
